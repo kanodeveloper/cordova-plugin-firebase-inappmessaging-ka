@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-firebase-inappmessaging",
+  "name": "cordova-plugin-firebase-inappmessaging-ka",
   "version": "1.0.0",
   "description": "Cordova plugin for Firebase In-App Messaging",
   "cordova": {
-    "id": "cordova-plugin-firebase-inappmessaging",
+    "id": "cordova-plugin-firebase-inappmessaging-ka",
     "platforms": [
       "ios",
       "android"
