@@ -1,7 +1,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 xmlns:android="http://schemas.android.com/apk/res/android"
            id="cordova-plugin-firebase-inappmessaging-ka"
-      version="1.0.0">
+      version="1.0.1">
 
     <name>cordova-plugin-firebase-inappmessaging</name>
     <description>Cordova plugin for Firebase In-App Messaging</description>
@@ -11,13 +11,13 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <issue>https://github.com/chemerisuk/cordova-plugin-firebase-inappmessaging/issues</issue>
            
     <engines>
-        <engine name="cordova" version=">=7.1.0"/>
-        <engine name="cordova-android" version=">=7.0.0"/>
+        <engine name="cordova" version=">=6.0.0"/>
+        <engine name="cordova-android" version=">=6.0.0"/>
         <engine name="cordova-ios" version=">=4.3.0"/>
     </engines>
 
     <platform name="ios">
-        <framework src="Firebase/InAppMessagingDisplay" type="podspec" spec="~> 5.0"/>
+        <framework src="Firebase/InAppMessagingDisplay" type="podspec" spec="~> 4.1"/>
     </platform>
 
     <platform name="android">
